@@ -1,0 +1,64 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo styling */
+  .navbar-logo {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-red {
+    color: #d23c3c; /* Red color for "Cedar" */
+  }
+  
+  .logo-black {
+    color: #000; /* Black color for "Shield" */
+  }
+  
+  /* Links container */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Spacing between links */
+  }
+  
+  /* Individual links */
+  .navbar-link {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  .navbar-link:hover {
+    color: #d23c3c;
+  }
+  
+  .navbar-button {
+    font-size: 16px;
+    color: #d23c3c;
+    text-decoration: none;
+    border: 1px solid #d23c3c;
+    padding: 8px 17px;
+    border-radius: 0px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 40px;
+    margin-left: 10px;
+  }
+  
+  .navbar-button:hover {
+    background-color: #d23c3c;
+    color: white;
+  }
+  
